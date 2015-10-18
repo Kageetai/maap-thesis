@@ -1,0 +1,13 @@
+- Kurzfassung
+- Abstract
+- Vorwort/Einleitung
+- Problem
+- Situation im Großstadtleben
+- Konzeption/Idee
+- Quellen für Veranstaltungen
+- Kartendarstellung
+- Indizierung und Aggregation der Veranstaltungen
+- Kategorien und Suche
+- Design
+- Vermarktung
+- Schlusswort
