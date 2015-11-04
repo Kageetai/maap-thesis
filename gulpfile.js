@@ -7,6 +7,17 @@ var pandoc = require('gulp-pandoc');
 
 var content_dir = "content";
 
+var exec = require('gulp-exec');
+
+gulp.task('task', function (cb) {
+  exec('pandoc '+content_dir+'/*.md -o dist/maap.pdf --latex-engine=xelatex', function (err, stdout, stderr) {
+    console.log(err);
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+})
+
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
@@ -30,9 +41,9 @@ gulp.task('docs:pdf', function() {
   gulp.src(content_dir+'/*.md')
       .pipe(pandoc({
         from: 'markdown',
-        to: 'pdf',
+        to: 'latex',
         ext: '.pdf',
-        args: ['--smart', '--standalone']
+        args: ['--smart', '--standalone', '--latex-engine=xelatex']
       }))
       .pipe(gulp.dest('dist/'));
 });

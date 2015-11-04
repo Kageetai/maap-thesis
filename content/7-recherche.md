@@ -1,3 +1,17 @@
+## Technologien
+
+Enthusiasmus für die Open Source Ideen und die dort beliebtesten Software-Lösungen lässt schnell eine Entscheidung für den **MEAN-Stack** nahe liegen. Diese Abkürzung steht für *MongoDB*, *Express.js*, *Angular.js*, *Node.js* als Kombination beliebter Open Source Software-Framworks, vergleichbar mit dem sogenannten LAMP- oder MAMP-Stacks.  
+Doch eben wegen der großen Verbreitung unterschiedlichster MEAN-Implementierungen im Internet, ist selbst dabei die Entscheidung durch viele Optionen erschwert. Hier ein paar Beispiel:
+
+- [Meteor](https://www.meteor.com/)
+- [Mean.io](http://mean.io/#!/)
+- [Mean.js](http://meanjs.org/)
+- [Generator-Angular-Fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
+- [Cleverstack](http://cleverstack.io/)
+- [Sails.js](http://sailsjs.org/)
+
+All diese Lösungen implementieren das MEAN-Konzept unterschiedlich. Ich möchte deswegen zu allen hier kurz ein zwei Sätze sagen
+
 ## Recherche
 Durch vorige Recherche vorhandener Plattformen und Datenbanken sollen die bisherigen Möglichkeiten untersucht werden. Welche Netzwerke und Plattformen gibt es bereits und wie werden sie genutzt?
 Allgemein soll untersucht werden wie junge Menschen in einer Stadt wie Berlin sich ihre Beschäftigungen und Unternehmungen für die Freizeit suchen. Wo wird sich informiert und wie werden Lokalitäten und Veranstaltungen gefunden? Wie verabreden sich Freunde untereinander und wir vereinbaren sie sich zu Unternehmungen?
