@@ -1,25 +1,27 @@
 ## Technologien
 
 Enthusiasmus für die Open Source Ideen und die dort beliebtesten Software-Lösungen lässt schnell eine Entscheidung für den **MEAN-Stack** nahe liegen. Diese Abkürzung steht für *MongoDB*, *Express.js*, *Angular.js*, *Node.js* als Kombination beliebter Open Source Software-Framworks, vergleichbar mit dem sogenannten LAMP- oder MAMP-Stacks.  
-Doch eben wegen der großen Verbreitung unterschiedlichster MEAN-Implementierungen im Internet, ist selbst dabei die Entscheidung durch viele Optionen erschwert. Hier ein paar Beispiel:
+Doch eben wegen der großen Verbreitung unterschiedlichster MEAN-Implementierungen im Internet, ist selbst dabei die Entscheidung durch viele Optionen erschwert. Hier ein paar Beispiele:
 
 - [Meteor](https://www.meteor.com/)
 - [Mean.io](http://mean.io/#!/)
 - [Mean.js](http://meanjs.org/)
 - [Generator-Angular-Fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
-- [Cleverstack](http://cleverstack.io/)
-- [Sails.js](http://sailsjs.org/)
 
-All diese Lösungen implementieren das MEAN-Konzept unterschiedlich. Ich möchte deswegen zu allen hier kurz ein zwei Sätze sagen
+All diese Lösungen implementieren das MEAN-Konzept unterschiedlich. Ich möchte deswegen zu allen hier kurz ein zwei Sätze sagen. 
 
-## Recherche
-Durch vorige Recherche vorhandener Plattformen und Datenbanken sollen die bisherigen Möglichkeiten untersucht werden. Welche Netzwerke und Plattformen gibt es bereits und wie werden sie genutzt?
-Allgemein soll untersucht werden wie junge Menschen in einer Stadt wie Berlin sich ihre Beschäftigungen und Unternehmungen für die Freizeit suchen. Wo wird sich informiert und wie werden Lokalitäten und Veranstaltungen gefunden? Wie verabreden sich Freunde untereinander und wir vereinbaren sie sich zu Unternehmungen?
-Eine Evaluierung externer Dienste und Quellen, wie Facebook-Events und Google Places soll eine mögliche Integration möglichst umfangreicher Informationen ermöglicht werden.
-Diese Recherche soll genutzt werden, um die Anwendbarkeit und den möglichen Umfang des Nutzens der Anwendung Maap zu evaluieren und anzupassen, damit eine möglichst optimale Entwicklung eines Prototypen zielgerichtet und optimal gestartet werden kann.
+### Meteor
+Die wohl bei weitem beliebteste Implementierung eines MEAN-Stacks (gemessen an den Bewertungen bei [Github](https://github.com/meteor/meteor)) ist Meteor von der Meteor Development Group aus San Francisco. Hierbei sind die Entwickler einen Schritt weiter gegangen als die oben genannten Technologien zu verbinden und ein daraus entstehendes Grundgerüst anzubieten. Alle diese wurden stattdessen unter dem `meteor` Kommandozeilentool verknüpft und können darüber angesprochen werden. Weiterhin bietet das Tool einige Hilfsmittel zur Erleichterung des Entwicklungs-Workflows, wie Skript-Komprimierung und Importierung andere Pakete aus dem hauseigenen [Paket-Verzeichnis](https://atmospherejs.com).  
+Dieses eigene Tool und Pakete bietet zwar einerseits eine übergangslose Integration und Workflow, so dass viele sonst selbst zu konfigurierende Schritte und die anfängliche Initialisierung neuer Projekte davon übernommen werden können und somit Anfänge erleichtern.  
+Andererseits wird so auch eine Abhängigkeit an weitere Software und Dienste geschaffen, welche auch nachteilig werden kann, wenn das Projekt größer wird und Skalierbarkeit ein Thema.  
+Meteor legt ebenfalls bei ihrer Tools einen höhren Fokus auf Echtzeit-Mobil-Anwendungen mit eingebauter Integration von [Cordova von Apache](https://cordova.apache.org/) und Ausführbarkeit des gleiches Codes auf Client- und Server-Seite. Dadurch werden viele Entwicklungsprinzipen maskiert und vereinfacht, was aber auch zum Nachteil werden kann, da zum Beipsiel aus der Dokumentation nicht ersichtlich ist, wie man eine simple REST-API erstellt, um darüber dann weitere Anwendungen anzusprechen.
 
-## Implementierung
-Der Prototyp wird mittels einer Webapp erstellt, basierend auf einem sogenannten MEAN-Stack, bestehend aus MongoDB, Express.js, Angular.js und Node.js, so dass dieser leicht beispielsweise durch mobile Apps erweitert werden kann, dank seiner REST-Bauweise.
-Der Schwerpunkt wird eine Karten-Ansicht sein, auf der Lokalitäten und Unternehmungen verschiedenster Quellen dargestellt werden sollen. Hier kann der Benutzer nach Quellen, Kategorien und weiteren suchen und filtern.
-Durch Integration externer Quellen, wie Facebook-Events und Google Places soll eine möglichst umfangreiche Menge an Informationen gesammelt und aufbereitet werden, so dass der Benutzer Zugang zu diversen Points of Interest (POI) hat.
-Außerdem kann man in den System der Quellen, wie beispielsweise Facebook-Veranstaltungen partizipieren und sich beispielsweise gleich auf "Zusage" stellen oder das Event im eigenen Benutzer-Konto der Anwendung vormerken.
+### Mean.io
+Mean.io verfolgt grundsätzlich einen ähnlichen Ansatz wie Meteor, geht dabei aber einen eher klassischen Weg derart, dass alle Komponenten des MEAN-Stacks noch einzelne ersichtlich sind und auch separat genutzt werden können.  
+Hierbei kommt auch ein eigenes Kommandozeilen-Tool zu tragen, aber was lediglich einzelne Aufgaben übernimmt und nicht den kompletten Workflow des Projektes. So muss man beispielsweise noch Tools wie das sehr beliebte Automatisierungstool [Gulp](http://gulpjs.com/) und den Frontend-Package-Manager [Bower](http://bower.io) separat installieren und selbstständig nutzen, was eventuell für Anfänger einer größere Hürde darstellt, aber wege der Nutzung dieser verbreiteten Tools in der Branche früher oder später meist eh notwendig wäre und somit eine bessere Nutzung bestehender Frameworks und Integrationen möglich macht.  
+Die Dokumentation ist umfangreich und bietet ausreichend Informationen um unterschiedliche Projekte zu beginnen und bei Problemen zu unterstützen.
+
+### Mean.js
+Zwar vom selben Entwickler wie das obige Mean.io, aber nach Unstimmigkeiten im Team von selbigen als neues eigenes Projekt gestartet, ist Mean.js noch verhältnismäßig jung, zeigt aber schon guten Fortschritt und Ideen.  
+Von allen bisher genannten Projekten ist dies aber das einzige, dass sich bei erstmaliger Generierung gänzlich auf ein anderes, sehr verbreitetes Tool verlässt. Hier wird [Yeoman](http://yeoman.io/) als beliebter Generator für allerlei unterschiedlichste Projekte genutzt. Diesre erlaubt dann auch die benutzung von Sub-Generatoren, die bei der Erstellung weiterher Routen oder Endpunkte.  
+Das Ganze Projekt ist noch nicht so ausgereift und hat eine wesentlich kleinere Community im Hintergrund, zeigt aber vielversprechende Ansätze und Herangehensweisen.
