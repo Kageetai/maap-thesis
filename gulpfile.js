@@ -1,56 +1,49 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache');
-// var browserSync = require('browser-sync');
+var browserSync = require('browser-sync');
 var connect = require('gulp-connect');
-var pandoc = require('gulp-pandoc');
+// var pandoc = require('gulp-pandoc');
+var shell = require('gulp-shell');
 
 var content_dir = "content";
 
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-       baseDir: "./"
+       baseDir: "./dist/"
     }
   });
 });
 
-// gulp.task('bs-reload', function () {
-//   browserSync.reload();
+gulp.task('bs-reload', function () {
+  browserSync.reload();
+});
+
+// gulp.task('connect', function() {
+//   connect.server({
+//     root: 'dist',
+//     livereload: true
+//   });
 // });
 
-gulp.task('connect', function() {
-  connect.server({
-    root: 'dist',
-    livereload: true
-  });
-});
+gulp.task('pandoc:pdf', shell.task([
+  'sh pandoc-pdf.sh'
+]));
 
-gulp.task('docs:pdf', function() {
-  gulp.src(content_dir+'/*.md')
-      .pipe(pandoc({
-        from: 'markdown',
-        to: 'pdf',
-        ext: '.pdf',
-        args: ['--smart', '--standalone']
-      }))
-      .pipe(gulp.dest('dist/'));
-});
+gulp.task('pandoc:latex', shell.task([
+  'sh pandoc-latex.sh'
+]));
 
-gulp.task('docs:html', function() {
-  gulp.src(content_dir+'/*.md')
-      .pipe(pandoc({
-        from: 'markdown',
-        to: 'html5',
-        ext: '.html',
-        args: ['--smart', '--standalone']
-      }))
-      .pipe(gulp.dest('dist/'));
-    // browserSync.reload();
-    connect.reload();
-});
+gulp.task('pandoc:html', ['copy'], shell.task([
+  'sh pandoc-html.sh'
+]));
 
-gulp.task('docs', ['docs:pdf', 'docs:html']);
+gulp.task('pandoc:md', shell.task([
+  'sh pandoc-md.sh'
+]));
+
+gulp.task('pandoc', ['pandoc:pdf', 'pandoc:latex', 'pandoc:html', 'pandoc:md']);
 
 gulp.task('images', function(){
   gulp.src('src/images/**/*')
@@ -58,8 +51,15 @@ gulp.task('images', function(){
     .pipe(gulp.dest('dist/images/'));
 });
 
-gulp.task('default', ['connect'], function(){
-  gulp.watch(content_dir+"/**/*.md", ['docs:html']);
+gulp.task('copy', function () {
+  gulp .src('templates/style.css')
+    .pipe(gulp.dest('dist'))
+})
+
+gulp.task('default', ['pandoc:html', 'browser-sync'], function(){
+  gulp.watch(content_dir+"/**/*.md", ['pandoc:html']);
   gulp.watch("images/**/*.jpg,png", ['images']);
-  //gulp.watch("*.html", ['bs-reload']);
+  gulp.watch("dist/*.html", ['bs-reload']);
 });
+
+gulp.task('build', ['images', 'pandoc']);
