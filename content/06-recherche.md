@@ -31,6 +31,17 @@ Das Ganze Projekt ist noch nicht so ausgereift und hat eine wesentlich kleinere 
 
 ## Weitere Werkzeuge
 
+### Node.js
+Node.js ist eine Event-getriebene JavaScript Umgebung, basierend auf der V8-Engine von Chrome.^[siehe: https://nodejs.org/en/]  
+Dabei wird es vorwiegend serverseitig eingesetzt als schnelle Alternative für Server-Anwendungen, die viel Ein- und Ausgaben bearbeiten können sollen.  
+Außerdem wird Node.js mittlerweile immer beliebter als Programmiersprache für zahlreiche Entwicklungswerkzeuge, wie als Basis für den MEAN-Stack und die im folgenden genannten Werkzeuge.
+
 ### Yeoman
 In den vorigen Absätzen schon erwähnt findet in der Open-Source-Gemeinde [Yeoman](http://yeoman.io/) sehr großen Anklang. Entwickelt von einem großen Team in Kombination mit den anderen im Folgenden genannten Tools, wird es genutzt, um damit Grundgerüste von allerlei Web-Projekte zu generieren.  
-Dabei werden mittels von Dritten entwickelten Generatoren neue Projekte initialisiert und die ersten Code-Beispiele generiert.
+Dabei werden mittels einer Vielzahl an [von Dritten entwickelten Generatoren](yeoman.io/generators/) neue Projekte initialisiert und die ersten Code-Beispiele generiert.
+
+### Bower
+Bei [Bower](http://bower.io/) handelt es sich um einen Paket-Manager für Frontend-Biliotheken und Pakete aller Art. Primär eingesetzt um bekannte Projekte, wie [jQuery](https://jquery.com/) und [Bootstrap](http://getbootstrap.com/) als Abhängkeiten von Projekten zu definieren und dann direkt zu importieren und so Probleme durch unterschiedliche Versionen oder Updates von Bilbiotheken etc. zu vermeiden.
+
+### Grunt/Gulp
+Die beiden Werkzeuge [Grunt](http://gruntjs.com/) und [Gulp](http://gulpjs.com/) sind sich in ihrem Zweck sehr ähnlich. Beide wurden als sogenannte Automatisierungswerkzeuge und Build-Tools entwickelt. Diese dienen damit der automatischen Ausführung verschiedenster Aufgaben bei der Software-Entwicklung, wie der Generierung kompromierter Skripte, der Erstellung von fertigen Builds für den Kunden und vielen mehr.
