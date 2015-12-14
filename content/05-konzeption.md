@@ -1,16 +1,31 @@
-# User Stories
+# Konzeption
 
-*"Was kann ich heute unternehmen?"*
+## User Stories
+
+> "Was kann ich heute unternehmen?"
 
 Dies soll die allgemeinste User Story für die Anwendung werden.
 Der durchschnittliche Benutzer soll mit der Anwendung ohne Einschränkung nach Unternehmungsmöglichkeiten suchen können.
 Eine ganz allgemeine Such-Möglichkeit nicht basierend auf irgendwelchen anderen Daten über den Benutzer ermöglicht eine möglichst umfangreiche Informationsaufnahme.
 
-*"Wo finde ich Poetry Slams in meiner Umgebung?"*
+> "Wo finde ich Poetry Slams in meiner Umgebung?" 
 
 Wenn ein User nach einer spezifischen Art von Unternehmungen sucht, soll er die Möglichkeit haben nach Kategorien gefiltert zu suchen und ähnliche Unternehmungen finden können.
 Dabei werden ihm Dinge in seiner Umgebung gefiltert nach Kategorien gezeigt und er kann sich ganz darauf konzentrieren nach was für einer spezifischen Art Unternehmung er sucht.
 
-*"Heute Abend haben wir Lust auf eine Electro Swing Party!"*
+> "Heute Abend haben wir Lust auf eine Electro Swing Party!"
 
 Oftmals ist man sehr spontan auf der Suche nach möglichen Unternehmungen in der Umgebung, die einem in nähester Zeit zur Verfügung stehen. Dabei sucht der Nutzer beispielsweise nach einem spezifischen Genre von Party oder Veranstaltung und kann so schnell und unkompliziert finden, was er jetzt machen kann und dies gleich seinen Freunden mitteilen.
+
+## Personas
+Zur genaueren Spezifikationen der Anforderungen und Spezifikationen der Anwendung, wurden zwei Personas definiert. Diese stellen zwei mögliche Benutzer der Anwendung dar, die selbige in unterschiedlicher Art und Weise definieren.
+
+### Jack
+Jack ist ein junger Student in Berlin, der schob etwas über die Regelstudienzeit hinaus, aber damit aber auch nicht unzufrieden ist. 
+Er ist nicht unbedingt fokussiert darauf, das Studium zu beenden und gleich darauf in einem Job zu versinken, also lebt er sein derzeitiges Leben etwas vor sich hin.  
+Sein Freundeskreis ist wie in Berlin üblich relativ groß und breit gefächert und so unternimmt immer wieder mit anderen Leuten etwas und dann auch meist spontan und ohne vorher explizit Möglichkeiten rauszusuchen etc.  
+Dabei besonders wichtig ist ihm Spontanität, da er meist am Anfang des Abends noch nicht weiß, wo es ihn hinverschlägt und worauf er und seine Freunde Lust bekommen.
+
+### Carla
+Als junge Arbeitnehmerin mit vielen Engagements in sozialen Bereichen hat Carla immer einen vollen Termin-Kalender und wenig Zeit für Spontanität. Da sie abends, wenn sie nicht eh auf irgendeinem Event aushilft, direkt von anderen Terminen nach Hause kommt, setzt sie sich erstmal hin, liest die letzten Nachrichten ihres kleinen aber intensiven Freundeskreises und checkt, was in der Stadt so los ist.  
+Für freie Abende hat sie sich meist schon vorher mit ihren Freunden fest verabredet und besprochen, was sie dann unternehmen wollen. Dementsprechend braucht die Gruppe schon vorher Infos über Möglichkeiten und Unternehmungen, da sie sich dabei oft erst besprechen, was dann unternommen wird.
