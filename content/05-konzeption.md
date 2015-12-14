@@ -1,5 +1,8 @@
 # Konzeption
 
+Bei einem Projekt wie diesem ist natürlich das Konzept so wichtig, wie die eigentlich Software-Entwicklung.  
+Es wurde daher damit begonnen User Stories und Personas zu entwickeln, die weitere Konzeption unterstützen. Darauf aufbauend wurde ein Minimum Viable Product (MVP) definiert, welche klare Grenzen für den Prototyp in der späteren Entwicklung definiert.
+
 ## User Stories
 
 > "Was kann ich heute unternehmen?"
@@ -18,14 +21,28 @@ Dabei werden ihm Dinge in seiner Umgebung gefiltert nach Kategorien gezeigt und 
 Oftmals ist man sehr spontan auf der Suche nach möglichen Unternehmungen in der Umgebung, die einem in nähester Zeit zur Verfügung stehen. Dabei sucht der Nutzer beispielsweise nach einem spezifischen Genre von Party oder Veranstaltung und kann so schnell und unkompliziert finden, was er jetzt machen kann und dies gleich seinen Freunden mitteilen.
 
 ## Personas
+
 Zur genaueren Spezifikationen der Anforderungen und Spezifikationen der Anwendung, wurden zwei Personas definiert. Diese stellen zwei mögliche Benutzer der Anwendung dar, die selbige in unterschiedlicher Art und Weise definieren.
 
 ### Jack
+
 Jack ist ein junger Student in Berlin, der schob etwas über die Regelstudienzeit hinaus, aber damit aber auch nicht unzufrieden ist. 
 Er ist nicht unbedingt fokussiert darauf, das Studium zu beenden und gleich darauf in einem Job zu versinken, also lebt er sein derzeitiges Leben etwas vor sich hin.  
 Sein Freundeskreis ist wie in Berlin üblich relativ groß und breit gefächert und so unternimmt immer wieder mit anderen Leuten etwas und dann auch meist spontan und ohne vorher explizit Möglichkeiten rauszusuchen etc.  
 Dabei besonders wichtig ist ihm Spontanität, da er meist am Anfang des Abends noch nicht weiß, wo es ihn hinverschlägt und worauf er und seine Freunde Lust bekommen.
 
 ### Carla
+
 Als junge Arbeitnehmerin mit vielen Engagements in sozialen Bereichen hat Carla immer einen vollen Termin-Kalender und wenig Zeit für Spontanität. Da sie abends, wenn sie nicht eh auf irgendeinem Event aushilft, direkt von anderen Terminen nach Hause kommt, setzt sie sich erstmal hin, liest die letzten Nachrichten ihres kleinen aber intensiven Freundeskreises und checkt, was in der Stadt so los ist.  
 Für freie Abende hat sie sich meist schon vorher mit ihren Freunden fest verabredet und besprochen, was sie dann unternehmen wollen. Dementsprechend braucht die Gruppe schon vorher Infos über Möglichkeiten und Unternehmungen, da sie sich dabei oft erst besprechen, was dann unternommen wird.
+
+## Minimum Viable Product
+
+Der nach der Konzeptions-Phase zu entwickelnde Prototyp soll im vornerein klar definiert werden, damit Umfang und Grenzen gesteckt werden können und die Ziele nicht aus den Augen verloren werden. Dies wird das Minimum Viable Product, welches einen funkitonsfähigen Prototypen mit den minimal-notwendigsten Funktionen darstellt, so dass Tests nach weiteren erforderlichen Funktionen an ersten Nutzern gemacht und weiteres Vorgehen evaluiert werden können.  
+Das MVP soll also folgende Funktionen beinhalten:
+- der Import von Unternehmungsmöglichkeiten und Events externer Quellen, anfangs Facebook-Events und Meetup.com
+- Darstellung der Events auf einer Karten-Ansicht
+- Filterung der Events nach Kategorien und Quellen
+- Benutzer-Login mit Speichern von Events und (De-)Aktivieren von Quellen
+- Teilen von Events auf gängigen Platformen, wie Facebook, Twitter und LinkedIn
+- Erkennen von Kategorien nach Stichwörtern
