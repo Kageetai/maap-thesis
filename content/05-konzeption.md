@@ -36,13 +36,23 @@ Dabei besonders wichtig ist ihm Spontanität, da er meist am Anfang des Abends n
 Als junge Arbeitnehmerin mit vielen Engagements in sozialen Bereichen hat Carla immer einen vollen Termin-Kalender und wenig Zeit für Spontanität. Da sie abends, wenn sie nicht eh auf irgendeinem Event aushilft, direkt von anderen Terminen nach Hause kommt, setzt sie sich erstmal hin, liest die letzten Nachrichten ihres kleinen aber intensiven Freundeskreises und checkt, was in der Stadt so los ist.  
 Für freie Abende hat sie sich meist schon vorher mit ihren Freunden fest verabredet und besprochen, was sie dann unternehmen wollen. Dementsprechend braucht die Gruppe schon vorher Infos über Möglichkeiten und Unternehmungen, da sie sich dabei oft erst besprechen, was dann unternommen wird.
 
+## Use Cases
+
+Zwei Use Cases wurden aus den obigen User Stories und Personas definiert, die den grundlegenden Nutzen der Anwendung beschreiben.
+
+> "Als junger unabhängiger Student in Berlin möchte ich kurzfristig nach möglich Unternehmungen in meiner Umgebung suchen können, weil wir dies meist unterwegs mit dem Handy überlegen."
+
+> "Als junge Arbeitnehmerin mit vollen Terminplan möchte ich für mich und meine Freunde im Vornerein nach Möglichkeiten für den Abend suchen, weil wir uns dann dafür absprechen können wollen."
+
 ## Minimum Viable Product
 
 Der nach der Konzeptions-Phase zu entwickelnde Prototyp soll im vornerein klar definiert werden, damit Umfang und Grenzen gesteckt werden können und die Ziele nicht aus den Augen verloren werden. Dies wird das Minimum Viable Product, welches einen funkitonsfähigen Prototypen mit den minimal-notwendigsten Funktionen darstellt, so dass Tests nach weiteren erforderlichen Funktionen an ersten Nutzern gemacht und weiteres Vorgehen evaluiert werden können.  
-Das MVP soll also folgende Funktionen beinhalten:
+Das MVP soll folgende Funktionen beinhalten:
 - der Import von Unternehmungsmöglichkeiten und Events externer Quellen, anfangs Facebook-Events und Meetup.com
 - Darstellung der Events auf einer Karten-Ansicht
 - Filterung der Events nach Kategorien und Quellen
 - Benutzer-Login mit Speichern von Events und (De-)Aktivieren von Quellen
 - Teilen von Events auf gängigen Platformen, wie Facebook, Twitter und LinkedIn
 - Erkennen von Kategorien nach Stichwörtern
+
+Durch Fixieren auf diese minimalen Anforderungen können sinnvolle Grenzen für das Projekt gesetzt werden, die einen Fokus auf die wesentlichen Bestandteile gewährleisten. Nach Entwicklung und Evaluierung dieses Prototypen kann über weitere Anforderungen und Fortführen der Entwicklung entschieden werden.
