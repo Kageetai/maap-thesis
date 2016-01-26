@@ -3,12 +3,19 @@ title: Maap
 subtitle: Automatische Integration und Kategorisierung/Filterung von Events und Points of Interest verschiedener externer Quellen
 author: Michael Seifarth
 date: 9. November 2015
+city: Berlin
+martikelnummer: 538334
+studiengang: Internationale Medieninformatik (B)
 toc: 
+lang: de
 smart: true
-latex-engine: xelatex
-geometry: margin=1in
-documentclass: report
 papersize: a4paper
+geometry: margin=1in
+fontsize: 12pt
+linestretch: 1.25
+documentclass: report
+classoption: master
+classoption: german
 header-includes:
     -
 ---
