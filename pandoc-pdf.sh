@@ -1,6 +1,6 @@
 # Generate PDF for thesis
-pandoc metadata.yml content/*.md -o dist/document.pdf \
-	--template=template.latex \
+pandoc bibliography.yml metadata.yml markdown/*.md -o dist/document.pdf \
 	--latex-engine=xelatex \
 	--filter pandoc-citeproc \
-	--biblio=bibliography.bib
+	--number-sections --reference-links
+rm -rf tex2pdf.*

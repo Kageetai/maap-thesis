@@ -1,0 +1,48 @@
+---
+references:
+- id: mongodbwiki
+  title: NoSQL databases explained
+  URL: https://www.mongodb.com/nosql-explained
+  type: webpage
+  author:
+  - family: MongoDB Inc.
+  issued:
+  - year: '2015'
+    month: '11'
+- id: nodejs
+  title: Node.js
+  URL: https://nodejs.org/en/
+  type: webpage
+  author:
+  - family: Node.js Foundation
+  issued:
+  - year: '2015'
+    month: '11'
+- id: npm
+  title: npm
+  URL: https://www.npmjs.com/
+  type: webpage
+  author:
+  - family: npm, Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+- id: json
+  title: JSON
+  URL: http://www.json.org/
+  type: webpage
+  author:
+  - family: JSON
+  issued:
+  - year: '2016'
+    month: '2'
+- id: googleplaces
+  title: Google Places Api
+  URL: https://developers.google.com/places/
+  type: webpage
+  author: 
+  - family: Google Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+...
