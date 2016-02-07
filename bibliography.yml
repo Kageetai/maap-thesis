@@ -45,4 +45,52 @@ references:
   issued:
   - year: '2016'
     month: '2'
+- id: stackshare
+  title: Stacks | StackShare
+  URL: http://stackshare.io/stacks
+  type: webpage
+  author: 
+  - family: StackShare Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+- id: mvchistory
+  title: Trygve/MVC
+  URL: http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html
+  type: webpage
+  author: 
+  - family: Trygve Reenskaug
+  issued:
+  - year: '2016'
+    month: '2'
+- id: Fielding:2000:PDM:337180.337228
+  type: paper-conference
+  author:
+  - family: Fielding
+    given: Roy T.
+  - family: Taylor
+    given: Richard N.
+  issued:
+  - year: '2000'
+  title: Principled design of the modern web architecture
+  container-title: Proceedings of the 22Nd international conference on software engineering
+  collection-title: ICSE ÔÇÖ00
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: '407-416'
+  keyword: WWW, software architectural style, software architecture
+  URL: http://doi.acm.org/10.1145/337180.337228
+  DOI: 10.1145/337180.337228
+  ISBN: '1-58113-206-9'
+- id: roythomasfielding2000
+  type: thesis
+  author:
+  - family: Fielding
+    given: Roy Thomas
+  issued:
+  - year: '2000'
+  title: Architectural styles and the design of network-based software architectures
+  publisher: UNIVERSITY OF CALIFORNIA, IRVINE
+  URL: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+  genre: Dissertation
 ...
