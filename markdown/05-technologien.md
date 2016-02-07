@@ -1,5 +1,25 @@
 # Technologien
 
+Der Großteil modernen Webanwendungen basiert heutzutage auf einigen gängigen Konzepten und Prinzipien. Dabei sind sicherlich die unterschiedlichsten Frameworks oder Software in Nutzung, welche aber zumeist auf den gleichen Konzepten beruhen, wie zum Beispiel bei [@stackshare] ersichtlich ist.  
+Dabei möchte ich in Kürze zwei wichtige Konzepte benennen und erläutern, da diese im Folgenden grundlegend sind.
+
+## MVC-Architektur
+
+![MVC-Architektur](https://developer.chrome.com/static/images/mvc.png)
+
+Die sogenannte Model-View-Controller-Architektur stellt ein altes und bewährtes Konzept in der Software-Entwicklung dar, die sie schon 1987 das erste Mal beschrieben wurde, siehe [@mvchistory].  
+Dabei werden Anwendungen in die drei Komponenten *Model*, *View* und *Controller* unterteilt. Diese sind für unterschiedliche Teile der Anwendung verantwortlich und kommunizieren miteinander. Das *Model* stellt die Datenstruktur der Anwendung dar und kommuniziert mit dem *Controller*, der diese Daten verarbeitet und jegliche Berechnungen oder ähnliches damit anstellt. Diese verarbeiteten Daten werden dann in die *View* übertragen, welche diese darstellt und für den Nutzer sichtbar macht.  
+Wenn der Nutzer dann Eingaben in der Oberfläche der Anwendung tätig, überträgt die *View* diese zurück an den *Controller*, welche dadurch eventuell neue erzeugte Daten aufbereitet und zurück an das *Modell* sendet, wo sie dann wieder abgespeichert usw. werden.  
+Eine einfache grundlegende Darstellung dieser drei Komponenten ist in Abbildung 4.1 zu sehen.
+
+## RESTful-API
+
+![Beispielhafte Methoden einer RESTful-API](http://cdn.infoq.com/statics_s2_20160203-0311u10/resource/articles/rest-api-on-cqrs/en/resources/fig3large.jpg)
+
+Das Konzept der sogenannten RESTful Anwendungen existiert seit einer Weile und wird benutzt um die Zustände von Webanwendungen und wie mehrere miteinander kommunizieren können zu beschreiben. Dabei beschreibt das Konzept verschiedene Methoden zum Abfragen, Erstellen, Bearbeiten und Löschen von Dokumenten in der Anwendungen, welche über übliche HTTP^[Hypertext-Transer-Protocol]-Methoden ansprechbar sein sollen. Siehe Beispiele für solche Methoden auch in Abbildung 4.2. Dabei sollte das Format der Daten frei wählbar sein und die Methoden immer der gleichen Struktur folgen, sowie die einzelnen Datensätze direkt ansprechbar.  
+Die Gesamtheit dieser Methoden wird dann meist als die API^[Application Programm Interface]-Schnittstelle der Anwendung bezeichnet.  
+Dies beschreiben auch [@roythomasfielding2000] und [@Fielding:2000:PDM:337180.337228] ausführlich.
+
 ## Der MEAN-Stack
 
 ![Visuelle Darstellung der Komponenten des MEAN-Stacks](http://codecondo.com/wp-content/uploads/2015/08/7-Features-of-MEAN-Stack_785.png)
@@ -22,7 +42,8 @@ Außerdem erfreut sich Node.js mittlerweile immer größerer Beliebtheit als Pro
 ### Express.js
 
 Als Framework zur einfacheren Erstellung flexibler Webanwendungen ist [Express.js](http://expressjs.com/) mittlerweile die verbreitetste Bibliothek für Node.js. Die minimale Architektur fokussiert sich auf HTTP-Methoden zur Erstellungen von REST-Routen. Dabei werden die schnellen Ein- und Ausgabe-Methoden von Node.js genutzt, um hohe Performance zu ermöglichen.  
-Inspiration bei der Konzeption war dabei das bekannte [Ruby on Rails-Framework](http://rubyonrails.org/) für die Skriptsprache Ruby, so dass viele Konzepte einigen Entwicklern grundlegend bekannt sein dürften.
+Inspiration bei der Konzeption war dabei das bekannte [Ruby on Rails-Framework](http://rubyonrails.org/) für die Skriptsprache Ruby, so dass viele Konzepte einigen Entwicklern grundlegend bekannt sein dürften.  
+Hierbei werden zum Beispiel die gängigen Konzepte wie Model-View-Controller-Architektur (MVC) und RESTful-States genutzt, so dass jeder Stand der Anwendung per URL einzeln ansprechbar ist und die Datenbank einfach über eine übliche REST-API angesprochen wird.
 
 ## Vorhandene Implementierungen des MEAN-Stack
 
