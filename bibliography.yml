@@ -93,4 +93,23 @@ references:
   publisher: UNIVERSITY OF CALIFORNIA, IRVINE
   URL: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
   genre: Dissertation
+- id: angularjs
+  type: webpage
+  author:
+  - family: Google Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'AngularJS: Miscellaneous: FAQ'
+  title-short: AngularJS
+  URL: https://docs.angularjs.org/misc/faq
+- id: angularjsmvw
+  type: webpage
+  author:
+  - family: Google Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'MVC vs MVVM vs MVP. What a controversial topic that many developers can spend…'
+  URL: https://plus.google.com/+AngularJS/posts/aZNVhj355G2
 ...

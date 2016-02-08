@@ -45,6 +45,11 @@ Als Framework zur einfacheren Erstellung flexibler Webanwendungen ist [Express.j
 Inspiration bei der Konzeption war dabei das bekannte [Ruby on Rails-Framework](http://rubyonrails.org/) für die Skriptsprache Ruby, so dass viele Konzepte einigen Entwicklern grundlegend bekannt sein dürften.  
 Hierbei werden zum Beispiel die gängigen Konzepte wie Model-View-Controller-Architektur (MVC) und RESTful-States genutzt, so dass jeder Stand der Anwendung per URL einzeln ansprechbar ist und die Datenbank einfach über eine übliche REST-API angesprochen wird.
 
+### Angular.js
+
+Das letzte Glied des MEAN-Stack behandelt die Client-Seite der Anwendung. Das heißt die Ansicht der Anwendung, die der Nutzern im Browser sehen wird. Allgemein gesprochen ist Angular.js ein leichtes Frontend-JavaScript-Framework, welches andere Frameworks wie jQuery etc. ersetzen kann und damit umfangreiche Interaktivität für den Benutzer anbietet, wie [@angularjs] als Entwickler selbst beschreibt.  
+Dabei kann der Entwickler Controller erstellen, die dann Daten und Methoden für Views bereit stellen, in welchen der Benutzer interagieren, Daten verändern und diese wieder an den Controller übertragen kann. In diesem Sinne ist Angular.js ein sogenanntes MVW^[Model-View-Whatever]-Framework, da es zwar ein klare Struktur für den Controller und die View bereit stellt, aber dem Entwickler die freie Wahl über die Form des Models lässt. MVW ist ein loser Term, um zu beschreiben, dass Entwickler benutzen können, was am besten für ihr Projekt geeignet ist, wie zum Beispiel von den Entwicklern von Angular.js selbst beschrieben [@angularjsmvw].
+
 ## Vorhandene Implementierungen des MEAN-Stack
 
 Mit all diesen Möglichkeiten bilden sich verständlicherweise einige unterschiedliche Implementierungen des MEAN-Stacks heraus und so fällt Entscheidung nicht leicht, da sich mit der Zeit die unterschiedlichsten Beispiele herauskristallisiert haben:
