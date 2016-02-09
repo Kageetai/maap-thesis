@@ -112,4 +112,31 @@ references:
     month: '2'
   title: 'MVC vs MVVM vs MVP. What a controversial topic that many developers can spend…'
   URL: https://plus.google.com/+AngularJS/posts/aZNVhj355G2
+- id: facebookbigdata
+  type: webpage
+  author:
+  - family: Facebook
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'Scaling the Facebook data warehouse to 300 PB | Engineering Blog | Facebook Code'
+  URL: https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/
+- id: facebookpromote
+  type: webpage
+  author:
+  - family: Facebook
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'Facebook for Business'
+  URL: https://www.facebook.com/business/news/events
+- id: meetupabout
+  type: webpage
+  author:
+  - family: Meetup
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'Über Meetup - Meetup'
+  URL: http://www.meetup.com/de-DE/about/
 ...
