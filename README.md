@@ -11,5 +11,6 @@ Repository for thesis to the Bachelor project
 
 - PDF: `pandoc-pdf.sh`
 - Latex: `pandoc-latex.sh` (not optimized yet)
+- HTML: `pandoc-html.sh`
 
 Gulpfile deprecated.
