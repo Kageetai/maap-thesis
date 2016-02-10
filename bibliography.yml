@@ -139,4 +139,52 @@ references:
     month: '2'
   title: 'Über Meetup - Meetup'
   URL: http://www.meetup.com/de-DE/about/
+- id: meanstack
+  type: webpage
+  author:
+  - family: Advait Solutions
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'Über Meetup - Meetup'
+  URL: http://advaitsolutions.in/services/web/mean-stack/
+- id: googlemvc
+  type: webpage
+  author:
+  - family: Google Inc.
+  issued:
+  - year: '2016'
+    month: '2'
+  title: 'MVC Architecture - Google Chrome'
+  URL: https://developer.chrome.com/apps/app_frameworks
+- id: gruntvsgulp
+  type: webpage
+  author:
+  - family: Pedro Semeano
+  issued:
+  - year: '2015'
+    month: '11'
+  title: 'Grunt vs Gulp: Which one should you use?'
+  URL: http://sixrevisions.com/web-development/grunt-vs-gulp/
+- id: yeomanperformanceoptimization
+  type: webpage
+  author:
+  - family: Addy Osmani
+  issued:
+  - year: '2016'
+    month: '02'
+  title: 'Grunt And Gulp Tasks For Performance Optimization: Yeoman'
+  URL: http://yeoman.io/blog/performance-optimization.html
+- id: bootstrapgrid
+  type: webpage
+  author:
+  - family: Otto
+    given:  Aark
+  - family: Thornton
+    given: Jacob
+  issued:
+  - year: '2016'
+    month: '02'
+  title: 'CSS - Bootstrap'
+  URL: http://getbootstrap.com/css/#grid
 ...

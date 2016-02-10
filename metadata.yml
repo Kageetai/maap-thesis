@@ -10,16 +10,18 @@ toc: true
 lof: true
 lang: de
 smart: true
-papersize: a4paper
-geometry: margin=1in
+papersize: A4
+geometry: a4paper
+geometry: width=150mm
+geometry: top=25mm
+geometry: bottom=25mm
 fontsize: 12pt
-linestretch: 1.2
+linestretch: 1.15
 documentclass: report
-classoption: master
-classoption: german
+classoption: twoside
 links-as-notes: true
 header-includes:
-  - 
+  - \PassOptionsToPackage{hyphens}{url}
 abstract:
 	Die Anwendung *Maap* ermöglicht Benutzern möglichst einfach und direkt nach Veranstaltungen und anderen Unternehmungen zu suchen. Durch Anbindung an bestehende sozialer Netzwerke und Portale sollen Datensätze importiert und kategorisiert werden.  
 	Fokus wird auf die Integration der externen Quellen und erweiterte Suche gelegt, bei der der Benutzer nach unterschiedlichsten Faktoren filtern und suchen kann, inbesonders mittels seiner aktuellen Position und Suche auf einer Karten-Ansicht.  

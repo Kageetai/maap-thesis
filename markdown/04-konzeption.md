@@ -1,7 +1,8 @@
 # Konzeption
 
-Basierend auf der vorher angestellten Recherche usw. wurde im Folgenden damit begonnen User Stories und Personas zu entwickeln, die weitere Konzeption unterstützen. Darauf aufbauend wurde ein Minimum Viable Product (MVP) definiert, welches klare Grenzen für den Prototyp in der späteren Entwicklung definiert.  
-Außerdem sind erste Mockups für die einzelnen Seiten des Prototypen der Anwendung entstanden.
+Basierend auf der vorher angestellten Recherche usw. wurde mit derKonzeption der Anwendung begonnen. Eine Webanwendung, welche für alle gängigen Geräte zugänglich sein sollte ist als Basis für jegliche folgenden Konzeption festgelegt worden.  
+Es wurden User Stories und Personas entwickelt, die weitere Konzeption unterstützen. Darauf aufbauend wurde ein Minimum Viable Product (MVP) definiert, welches klare Grenzen für den Prototyp in der späteren Entwicklung definiert.  
+Außerdem sind erste Mockups für die einzelnen Seiten des Prototypen der Anwendung entstanden. Diese wurden erstmal für Desktop-Browser konzipiert, werden aber dank Responsive Design (siehe [@bootstrapgrid]) einfach für mobile Geräte darstellbar sein.
 
 <!--TODO mehr zur generellen Konzeption -->
 
@@ -51,6 +52,7 @@ Zwei Use Cases wurden aus den obigen User Stories und Personas definiert, die de
 Der nach der Konzeptions-Phase zu entwickelnde Prototyp soll im vornherein klar definiert werden, damit Umfang und Grenzen gesteckt werden können und die Ziele nicht aus den Augen verloren werden. Dies wird das Minimum Viable Product, welches einen funktionsfähigen Prototypen mit den minimal-notwendigsten Funktionen darstellt, so dass Tests nach weiteren erforderlichen Funktionen an ersten Nutzern gemacht und weiteres Vorgehen evaluiert werden können.
 
 Das MVP soll folgende Funktionen beinhalten:
+- Webanwendung lauffähig auf gängiger Server-Architektur
 - der Import von Unternehmungsmöglichkeiten und Events externer Quellen, anfangs Facebook-Events und Meetup.com
 - Darstellung der Events auf einer Karten-Ansicht
 - Filterung der Events nach Kategorien und Quellen
@@ -59,27 +61,3 @@ Das MVP soll folgende Funktionen beinhalten:
 - Erkennen von Kategorien nach Stichwörtern
 
 Durch Fixieren auf diese minimalen Anforderungen können sinnvolle Grenzen für das Projekt gesetzt werden, die einen Fokus auf die wesentlichen Bestandteile gewährleisten. Nach Entwicklung und Evaluierung dieses Prototypen kann über weitere Anforderungen und Fortführen der Entwicklung entschieden werden.
-
-## Prototypen-Mockups
-
-Nach Erstellung des obigen Konzeptes sind erst visuelle Darstellungen der Konzepte wichtig für die Entwicklung. Deswegen wurde sogenannte Mockups erstellt, die eine erste mögliche Ansicht der Anwendung zeigen. Verschiedene Seiten der Anwendung sind dabei sichtbar.
-
-### Startseite
-
-Die Startseite einer Anwendung ist die wichtigste, da sie den Benutzer in die Anwendung einführt und die wichtigsten Funktionen bereit stellt. Aus diesem Grund wurde eine Karten-Ansicht der nahestehen Events als primäre Ansicht der Anwendung ausgewählt. Dies zeigt dem Benutzer sofort was sich in seiner näheren Umgebung befindet und gibt ihm die Möglichkeit nach weiteren Events zu suchen. Bei Klick auf einen Marker in der Karte kann der Benutzer erste Details zu den Events betrachten. Dafür schiebt sich von links eine Seitenleiste ins Bild, welche verschiedene Informationen über das gewählte Event darstellt, wie eine Beschreibung und Freunde die ebenfalls teilnehmen.    
-In der oberen Navigation dieser und aller weiteren Seiten befinden sich Links zu weiteren Seiten, wie die erweiterte Suche, das eigene Profil des Benutzers und eine generelle About-Seite.
-
-### Event-Detail-Seite
-
-Wenn der Benutzer auf den Link für mehr Details eines Events klickt, kommt er auf die Detail-Seite eines spezifischen Events. Hier sieht er alle Infos über das Event, wie den Beschreibungstext, Zeit, Ort, Anzahl der Teilnehmer und einen Link zur ursprünglichen Event-Seite auf Facebook oder ähnlichem.  
-Diese Ansicht soll bewusst simpel gehalten werden, damit der Benutzer nicht von zu vielen Informationen überfordert wird und stattdessen die wichtigsten Informationen direkt klar werden.  
-Für den ersten Prototypen sind keine weiteren Informationen auf der Detail-Seite notwendig.  
-Oberhalb des Inhalts der Seite befindet sich wieder die selbe Navigationsleiste, wie schon auf der Startseite.
-
-### Profil-Seite
-
-Für den Prototypen enthalten die Nutzer-Profile lediglich minimale Informationen und Funktionen zum Ändern der Profil-Daten, wie Name und Passwort, sofern sich der Benutzer nicht direkt über externe Dienste wie Facebook oder Twitter angemeldet hat.  
-
-### About-Seite
-
-Eine letzte Seite mit generellen Informationen für die Anwendung, Verlinkungen zum Quellcode und Entwickler bildet die About-Seite. Nach einer kurzen Beschreibung des Projektes findet man hier ein Kontaktformular und das Impressum.

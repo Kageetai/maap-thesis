@@ -1,9 +1,9 @@
-# Veranstaltungsquellen
+## Veranstaltungsquellen
 
 Wie schon weiter oben beschrieben sind für den Prototypen des Projektes im MVP zwei Quellen für Veranstaltungen vorgesehen, welche beispielhaft implementiert werden sollen. Nach Evaluierung des Prototypen können eventuelle weitere Import-Skripte einfach hinzugefügt werden, welche dann im übergeordneten Skript automatisch mit aufgerufen werden und die zurückgegeben Daten in die Datenbank gespeichert werden.  
 Hier sollen die beiden ersten Veranstaltungsquellen für den Prototypen kurz erläutert werden.
 
-## Facebook
+### Facebook
 
 Facebook hat mit seiner Datenbank aus Veranstaltungen aus aller Welt und den umfangreichen Funktionen zum Erstellen, Bearbeiten und Einladen für Benutzer die mittlerweile größte Sammlung an Events und anderen Veranstaltungen mit  hunderten an PetaBytes an Daten, wie von [@facebookbigdata] selbst beschrieben.  
 Viele Unternehmen, Organisationen und Privatpersonen nutzen Facebook als Plattform, um ihre Events zu promoten und Gäste einzuladen und zu informieren. Facebook biete Möglichkeiten für Events zu werben und verdient Geld mit bezahlten Anzeigen für Event-Besitzer, wie zum Beispiel hier beschrieben [@facebookpromote]. Entsprechend finden sich beinahe alle öffentlichen (und natürlich noch mehr private) Events bei Facebook und können über die eigene [Graph API](https://developers.facebook.com/docs/graph-api) abgefragt werden. Diese API ist der Angelpunkt aller Interaktionen anderer Anwendungen mit Daten von Facebook, so auch um Events abzufragen.  
@@ -18,7 +18,7 @@ Lediglich zu beachten sind die unterschiedlichen Details für die Orte bzw. Loca
 Durch diese Unterschied sind zwar meist aber nicht immer Koordinaten zu den Locations direkt verfügbar und müssen eventuell erst selbst aufgelöst werden.  
 Zusammenfassend ist die Graph API von Facebook zwar sehr umfangreich, aber nicht immer einfach zu nutzen, wegen unterschiedlicher Berechtigungen bei den Methoden der API.
 
-## Meetup.com
+### Meetup.com
 
 [Meetup.com](http://www.meetup.com/) ist eine Plattform, welche gänzlich darauf ausgerichtet ist, Nutzern die Möglichkeit zu geben, Events zu erstellen und anderen Nutzer dazu einzuladen. Dazu biete die Plattform Funktionen wie RSVP und Besucher-Listen, sowie Freunden zu folgen und über eventuelle interessante Events informiert zu werden.  
 Ebenfalls mittlerweile als eine der größten Plattformen zur Event-Planung und -ORganisation mit über einer halben Million Meetups monatlich aus über 180 Ländern, siehe [@meetupabout], hat Meetup.com ebenfalls eine API für Entwickler anderer Anwendungen. Diese ist einfach über API Keys (je Entwickler) erreichbar oder ebenfalls per User-ID, wenn sich der Nutzer über OAuth anmeldet.  
