@@ -1,10 +1,9 @@
 # Konzeption
 
-Basierend auf der vorher angestellten Recherche usw. wurde mit derKonzeption der Anwendung begonnen. Eine Webanwendung, welche für alle gängigen Geräte zugänglich sein sollte ist als Basis für jegliche folgenden Konzeption festgelegt worden.  
+Basierend auf der vorher angestellten Recherche usw. wurde mit derKonzeption der Anwendung begonnen. Eine Webanwendung, welche für alle gängigen Geräte zugänglich sein sollte ist als Basis für jegliche folgenden Konzeption festgelegt worden. Webanwendungen bieten die größtmögliche Verbreitung und Zugänglichkeit, auch für mobile Nutzer, da sie einfach über jeden Browser und Größe des Bildschirm erreichbar sind.  
+Moderne Browser bestehen aus zahlreichen Ebenen von Software, die dadurch komplexe Layouts schnell darstellen können, wie [@browserbehindthescenes] beschreibt.  
 Es wurden User Stories und Personas entwickelt, die weitere Konzeption unterstützen. Darauf aufbauend wurde ein Minimum Viable Product (MVP) definiert, welches klare Grenzen für den Prototyp in der späteren Entwicklung definiert.  
 Außerdem sind erste Mockups für die einzelnen Seiten des Prototypen der Anwendung entstanden. Diese wurden erstmal für Desktop-Browser konzipiert, werden aber dank Responsive Design (siehe [@bootstrapgrid]) einfach für mobile Geräte darstellbar sein.
-
-<!--TODO mehr zur generellen Konzeption -->
 
 ## User Stories
 

@@ -187,4 +187,16 @@ references:
     month: '02'
   title: 'CSS - Bootstrap'
   URL: http://getbootstrap.com/css/#grid
+- id: browserbehindthescenes
+  type: webpage
+  author:
+  - family: Garsiel
+    given:  Tali
+  - family: Irish
+    given: Paul
+  issued:
+  - year: '2011'
+    month: '08'
+  title: 'How Browsers work: Behind the scenes of modern web browsers'
+  URL: http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 ...
