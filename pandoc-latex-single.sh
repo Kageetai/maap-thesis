@@ -1,4 +1,4 @@
-for file in markdown/*
+for file in content/*
 do
 	s=${file##*/}
   pandoc $file -o latex/${s%.*}.tex \

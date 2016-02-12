@@ -1,5 +1,5 @@
 # Generate HTML for preview
-	pandoc bibliography.yml metadata.yml markdown/*.md -o dist/index.html \
+	pandoc bibliography.yml metadata.yml content/*.md -o dist/index.html \
 	-s \
 	--template templates/template.html \
 	-c style.css
