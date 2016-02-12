@@ -5,7 +5,7 @@ Dabei werden in Kürze zwei wichtige Konzepte benennen und erläutert, da diese 
 
 ### MVC-Architektur
 
-![MVC-Architektur, Quelle: https://developer.chrome.com/apps/app_frameworks](https://developer.chrome.com/static/images/mvc.png)
+![MVC-Architektur, Quelle: http://bit.ly/1Qbw9eu](https://developer.chrome.com/static/images/mvc.png)
 
 Die sogenannte Model-View-Controller-Architektur stellt ein altes und bewährtes Konzept in der Software-Entwicklung dar, die sie schon 1987 das erste Mal beschrieben wurde, siehe [@mvchistory].  
 Dabei werden Anwendungen in die drei Komponenten *Model*, *View* und *Controller* unterteilt. Diese sind für unterschiedliche Teile der Anwendung verantwortlich und kommunizieren miteinander. Das *Model* stellt die Datenstruktur der Anwendung dar und kommuniziert mit dem *Controller*, der diese Daten verarbeitet und jegliche Berechnungen oder ähnliches damit anstellt. Diese verarbeiteten Daten werden dann in die *View* übertragen, welche diese darstellt und für den Nutzer sichtbar macht.  
@@ -14,7 +14,7 @@ Eine einfache grundlegende Darstellung dieser drei Komponenten ist in Abbildung 
 
 ### RESTful-API
 
-![Beispielhafte Methoden einer RESTful-API, Quelle: http://www.infoq.com/articles/rest-api-on-cqrs](http://cdn.infoq.com/statics_s2_20160203-0311u10/resource/articles/rest-api-on-cqrs/en/resources/fig3large.jpg)
+![Beispielhafte Methoden einer RESTful-API, Quelle: http://bit.ly/1c9xgbJ](http://cdn.infoq.com/statics_s2_20160203-0311u10/resource/articles/rest-api-on-cqrs/en/resources/fig3large.jpg)
 
 Das Konzept der sogenannten RESTful Anwendungen existiert seit einer Weile und wird benutzt um die Zustände von Webanwendungen und wie mehrere miteinander kommunizieren können zu beschreiben. Dabei beschreibt das Konzept verschiedene Methoden zum Abfragen, Erstellen, Bearbeiten und Löschen von Dokumenten in der Anwendungen, welche über übliche HTTP^[Hypertext-Transer-Protocol]-Methoden ansprechbar sein sollen. Siehe Beispiele für solche Methoden auch in Abbildung 4.2. Dabei sollte das Format der Daten frei wählbar sein und die Methoden immer der gleichen Struktur folgen, sowie die einzelnen Datensätze direkt ansprechbar.  
 Die Gesamtheit dieser Methoden wird dann meist als die API^[Application Programm Interface]-Schnittstelle der Anwendung bezeichnet.  
@@ -22,7 +22,7 @@ Dies beschreiben auch [@roythomasfielding2000] und [@Fielding:2000:PDM:337180.33
 
 ### Der MEAN-Stack
 
-![Visuelle Darstellung der Komponenten des MEAN-Stacks und ihrer Verbindung, Quelle: http://advaitsolutions.in/services/web/mean-stack/](http://advaitsolutions.in/wp-content/uploads/2015/08/meanjs-1024x492.png)
+![Visuelle Darstellung der Komponenten des MEAN-Stacks und ihrer Verbindung, Quelle: http://bit.ly/20Q0hr4](http://advaitsolutions.in/wp-content/uploads/2015/08/meanjs-1024x492.png)
 
 Diese Abkürzung MEAN steht für *MongoDB*, *Express.js*, *Angular.js*, *Node.js* als Kombination weit verbreiter Open Source Software-Programme und ähnelt damit in der Umsetzung ähnliche Paketen, wie dem LAMP^[Linux-Apache-MySQL-PHP]-Stack oder [Ruby on Rails](http://rubyonrails.org/).  
 Diese werden genutzt um eine solide Basis für Projekte zu bietet, da die einzelnen Komponenten gut miteinander arbeiten und verbreitet genutzt werden, insbesonders der MEAN-Stack als eher neue Variante einer solcher Software-Kombination, wie [@meanstack] beschreibt.  

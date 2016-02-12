@@ -10,11 +10,11 @@ Beim ersten starten der App wird man nach Interessen verschiedener Kategorien wi
 Wenn ich bei einem einzelnen Event auf "Yes", "Maybe" oder "No" zur Teilnahme des Events klicke, ist danach nicht mehr ersichtlich, was mit dieser Info geschieht und ich kann nirgends sehen, bei welchen Events ich bereits was gewählt habe. Außerdem ist allgemein nicht ersichtlich von welchen Quellen die Events kommen.  
 Allgemein zeigt sich bei diesem Projekt der Fokus auf die mobilen Apps (wie auch in dem Werbebild in Abbildung 2.1 zu erkennen ist) und dass scheinbar an den Funktionen in der Webseite noch gearbeitet wird. Das Team hinter Nearify besteht aus zwei Mitglieder mit unterschiedlichen Hintergründen. Allgemein ist Potential zu erkennen, aber noch weitere Detail-Arbeit notwendig. Eine Karten-Funktion aller Events bietet die Anwendung gar nicht.
 
-![Nearify, Quelle: http://www.indianweb2.com/2014/09/16/gurgaon-based-events-discovery-app-nearify-raises-funds-seedfund-advisors-others/](http://i1.wp.com/www.indianweb2.com/wp-content/uploads/2014/09/nearify.jpg)
+![Nearify, Quelle: http://bit.ly/1SLzRSY](http://i1.wp.com/www.indianweb2.com/wp-content/uploads/2014/09/nearify.jpg)
 
 ### Vamos
 
-![Vamos, Quelle: http://blog.allmyfaves.com/events/get-vamos-get-going-get-out/](http://blog.allmyfaves.com/wp-content/uploads/2014/09/Get-Vamos-Get-Going-Get-Out.png)
+![Vamos, Quelle: http://bit.ly/20soL4j](http://blog.allmyfaves.com/wp-content/uploads/2014/09/Get-Vamos-Get-Going-Get-Out.png)
 
 Die Startseite von [Vamos](http://ww.getvamos.com) erscheint gleich klar strukturiert und zeigt zahlreiche Funktionen. Beim ersten Aufrufen wird man nach seiner Stadt gefragt, so dass lediglich Events aus dieser Stadt geladen werden. Hier wurde großen Wert auf die Übersichtlichkeit der Informationen zu den Events und der Such-Funktionen der Anwendung gelegt. Schnell wird klar, dass alle Events von Facebook importiert werden und alle Funktionalität, wie das Teilen und Teilnehmen an Events lediglich die korrespondierenden Funktionen bei Facebook nutzen. Neue Events können ebenfalls lediglich mittels Facebook-URL hinzugefügt werden, so dass sie ins System importiert werden.  
 Etwas versteckt aber ebenfalls vorhanden ist auch eine Karten-Ansicht aller Events der aktuellen Kategorie bzw. Suche. Diese erlauben dann bei Klick auf die Detail-Ansicht der Events zu kommen.  
@@ -26,7 +26,7 @@ Insgesamt zeigt Vamos bereits sehr viel Potential und Übersichtlichkeit dank de
 
 ### Allevents.in
 
-![Allevents.in](images/allevents.png)
+![Allevents.in, Quelle: http://bit.ly/1m5MsBo](images/allevents.png)
 
 [Allevents.in](http://allevents.in/) ist eine komplexere Anwendung als die anderen oben genannten Beispiele. Neben den schon beschriebenen Funktionen zur Suche von Events, wird hier ein Veranstalter-Profil bereit gestellt, wo man die eigenen Facebook-Seiten verwalten kann. Dabei können schon existierenden Events der eigenen Facebook-Seiten importiert oder eigene manuell erstellt werden.  
 Außerdem kann man anderen Facebook-Seiten folgen und so Benachrichtigungen erhalten, wenn diese neue Events erstellen. Dies wirkt dadurch wesentlich eher wie eine eigenständige soziale Plattform, da man so direkt über Orte oder Künstlern auf dem Laufenden bleiben kann.  
