@@ -3,7 +3,7 @@
 Das Interface der Anwendung besteht aus einer Webanwendung für Browser aller gängigen Geräte. Diese wurde wie schon vorher beschrieben basierend auf dem JavaScript-Framework Angular.js entwickelt und ermöglicht so eine unterbrechungsfreie Interaktion des Nutzers mit dem Server der Anwendung. Dadurch können die unterschiedlichen Ansichten der Anwendung direkt miteinander interagieren und Funktionalität teilen.  
 Im Folgenden sollen die einzelnen Unterseiten der Anwendung und deren Funktionalität beschrieben werden.
 
-<!--TODO Bilder aller Ansichten -->
+**TODO Bilder aller Ansichten**
 
 ### Startseite
 
