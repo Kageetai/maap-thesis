@@ -1,5 +1,23 @@
 ---
 references:
+- id: facebookadaudience
+  title: How to target audiences with Facebook adverts | Facebook for Business
+  URL: https://www.facebook.com/business/learn/facebook-ads-choose-audience
+  type: webpage
+  author:
+  - family: Facebook
+  issued:
+  - year: '2016'
+    month: '02'
+- id: facebookadproviders
+  title: Advertising Providers on Facebook Platform - App Development
+  URL: https://developers.facebook.com/docs/adproviders
+  type: webpage
+  author:
+  - family: Facebook
+  issued:
+  - year: '2016'
+    month: '02'
 - id: mongodbwiki
   title: NoSQL databases explained
   URL: https://www.mongodb.com/nosql-explained
@@ -209,4 +227,23 @@ references:
     month: '04'
   title: '50 Fascinating Facebook Facts And Figures - Jeffbullass Blog'
   URL: http://www.jeffbullas.com/2011/04/28/50-fascinating-facebook-facts-and-figures/
+- id: xingeventsreport
+  type: report
+  author:
+  - company: XING AG
+  issued:
+  - year: '2014'
+    month: '08'
+  title: 'Social Media & Events Report'
+  URL: https://de.amiando.com/infocenter/reports/smer14/download_11082014/
+- id: restapi
+  type: webpage
+  author:
+  - family: Kheyrollahi
+    given: Ali
+  issued:
+  - year: '2013'
+    month: '10'
+  title: 'Exposing CQRS Through a RESTful API'
+  URL: hhttp://www.infoq.com/articles/rest-api-on-cqrs
 ...

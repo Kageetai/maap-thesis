@@ -1,3 +1,4 @@
+
 \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
@@ -178,6 +179,7 @@ $endif$
 $for(header-includes)$
 $header-includes$
 $endfor$
+\usepackage[style=german,german=quotes]{csquotes}
 
 $if(subparagraph)$
 $else$
@@ -244,4 +246,7 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+
+% \include{templates/messbox}
+
 \end{document}

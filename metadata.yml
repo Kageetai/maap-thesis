@@ -19,12 +19,13 @@ geometry: bottom=25mm
 fontsize: 12pt
 linestretch: 1.15
 documentclass: report
-classoption: twoside
+#classoption: twoside
 links-as-notes: true
 header-includes:
   - \PassOptionsToPackage{hyphens}{url}
 abstract:
-	Die Anwendung *Maap* ermöglicht Benutzern möglichst einfach und direkt nach Veranstaltungen und anderen Unternehmungen zu suchen. Durch Anbindung an bestehende soziale Netzwerke und Portale sollen Datensätze importiert und kategorisiert werden.  
-	Fokus wird auf die Integration der externen Quellen und die erweiterte Suche gelegt, bei der der Benutzer nach unterschiedlichsten Faktoren filtern und suchen kann, inbesonders mittels seiner aktuellen Position und Suche auf einer Karten-Ansicht.  
-	Der Prototyp stellt die grundlegenden Funktionen dar und soll eine eventuell weitere Recherche und Entwicklung des Projektes evaluieren. Dafür wird eine Web-App, basierend auf dem MEAN-Stack, genutzt.
+	Diese Arbeit beschreibt die entwickelte Anwendung *Maap*, welche es Benutzern ermöglicht möglichst einfach und direkt nach Veranstaltungen und anderen Unternehmungen, primär auf einer Karte, zu suchen. Durch Anbindung an bestehende soziale Netzwerke und Portale sollen Datensätze importiert und kategorisiert werden.  
+	Fokus bei der Entwicklung wird zum einen auf die Integration der externen Quellen und zum anderen die erweiterte Suche gelegt, bei der der Benutzer nach unterschiedlichsten Faktoren filtern und suchen kann, inbesonders mittels seiner aktuellen Position und Suche auf einer Karten-Ansicht.  
+  Dafür wird die derzeitige Lage im Großstadtleben analysiert und darau Schlüsse für die Entwicklung des Prototypen der Anwendung gezogen, welche in Konzeption und Implementierung genutzt werden.  
+	Der zusätzlich zu dieser Arbeit entwickelte Prototyp stellt die grundlegenden Funktionen dar und die Arbeit soll die Weiterentwicklung und zukünftige Recherche der Anwendung aufzeigen. Für die Entwicklung des Prototypen wird eine Web-App, die auf dem MEAN-Stack basiert, genutzt.
 ---

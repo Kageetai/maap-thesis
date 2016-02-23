@@ -4,5 +4,5 @@ pandoc bibliography.yml metadata.yml content/*.md -o dist/document.pdf \
 	--template=templates/template.tex \
 	--filter pandoc-citeproc \
 	--csl=templates/ieee.csl \
-	--number-sections --reference-links
+	--number-sections --reference-links --smart
 rm -rf tex2pdf.*
