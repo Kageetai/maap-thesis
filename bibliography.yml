@@ -210,7 +210,7 @@ references:
   issued:
   - year: '2015'
     month: '11'
-  title: 'Grunt vs Gulp: Which one should you use?'
+  title: 'Grunt vs Gulp: Which one should you use'
   URL: http://sixrevisions.com/web-development/grunt-vs-gulp/
 - id: yeomanperformanceoptimization
   type: webpage
@@ -256,7 +256,7 @@ references:
   title: '50 Fascinating Facebook Facts And Figures - Jeffbullass Blog'
   URL: http://www.jeffbullas.com/2011/04/28/50-fascinating-facebook-facts-and-figures/
 - id: xingeventsreport
-  type: report
+  type: webpage
   author:
   - company: XING AG
   issued:
@@ -273,5 +273,17 @@ references:
   - year: '2013'
     month: '10'
   title: 'Exposing CQRS Through a RESTful API'
-  URL: hhttp://www.infoq.com/articles/rest-api-on-cqrs
+  URL: http://www.infoq.com/articles/rest-api-on-cqrs
+- id: googlemapscluster
+  type: webpage
+  author:
+  - family: Mahe
+    given: Luke
+  - family: Broadfoot
+    given: Chris
+  issued:
+  - year: '2010'
+    month: '12'
+  title: 'Too Many Markers! | Google Maps APIs | Google Developers'
+  URL: https://developers.google.com/maps/articles/toomanymarkers
 ...
