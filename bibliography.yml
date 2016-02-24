@@ -1,5 +1,33 @@
 ---
 references:
+- id: nearify
+  title: Gurgaon based Events discovery app Nearify raises funds from SeedFund advisors and others
+  URL: http:// www.indianweb2.com/2014/09/16/gurgaon-based-events-discovery-app-nearify-raises-funds-seedfund-advisors-others/
+  type: webpage
+  author:
+  - family: Vardaan
+  issued:
+  - year: '2014'
+    month: '09'
+- id: vamos
+  title: "Get Vamos, Get Going, Get Out << The @allmyfaves Blog: Expert Reviews about Cool New Sites"
+  URL: http://blog.allmyfaves.com/events/get-vamos-get-going-get-out/
+  type: webpage
+  author:
+  - family: Sanders
+    given: Toby
+  issued:
+  - year: '2014'
+    month: '09'
+- id: alleventsincity
+  title: "All Events in City - Android Apps on Google Play"
+  URL: hhttps://play.google.com/store/apps/details?id=com.amitech.allevents
+  type: webpage
+  author:
+  - family: Google Inc.
+  issued:
+  - year: '2016'
+    month: '02'
 - id: facebookadaudience
   title: How to target audiences with Facebook adverts | Facebook for Business
   URL: https://www.facebook.com/business/learn/facebook-ads-choose-audience
