@@ -180,6 +180,13 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 \usepackage[style=german,german=quotes]{csquotes}
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[RO]{$title$}
+\fancyfoot{}
+\fancyfoot[LO]{Kapitel \thechapter}
+\fancyfoot[CO]{\thepage}
+\fancyfoot[RO]{$author$}
 
 $if(subparagraph)$
 $else$
@@ -223,6 +230,8 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
+
+\pagestyle{fancy}
 $body$
 
 $if(natbib)$

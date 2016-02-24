@@ -1,5 +1,5 @@
 ---
-title: Maap
+title: Bachelorarbeit Maap
 subtitle: Automatische Integration und Kategorisierung/Filterung von Events und Points of Interest verschiedener externer Quellen
 author: Michael Seifarth
 date: 29. Februar 2016
@@ -17,7 +17,7 @@ geometry: width=150mm
 geometry: top=25mm
 geometry: bottom=25mm
 fontsize: 12pt
-linestretch: 1.15
+linestretch: 1.1
 documentclass: report
 #classoption: twoside
 links-as-notes: true
