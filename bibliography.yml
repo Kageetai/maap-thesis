@@ -2,13 +2,17 @@
 references:
 - id: nearify
   title: Gurgaon based Events discovery app Nearify raises funds from SeedFund advisors and others
-  URL: http:// www.indianweb2.com/2014/09/16/gurgaon-based-events-discovery-app-nearify-raises-funds-seedfund-advisors-others/
+  URL: http://www.indianweb2.com/2014/09/16/gurgaon-based-events-discovery-app-nearify-raises-funds-seedfund-advisors-others/
   type: webpage
   author:
   - family: Vardaan
   issued:
   - year: '2014'
     month: '09'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: vamos
   title: "Get Vamos, Get Going, Get Out << The @allmyfaves Blog: Expert Reviews about Cool New Sites"
   URL: http://blog.allmyfaves.com/events/get-vamos-get-going-get-out/
@@ -19,6 +23,10 @@ references:
   issued:
   - year: '2014'
     month: '09'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: alleventsincity
   title: "All Events in City - Android Apps on Google Play"
   URL: hhttps://play.google.com/store/apps/details?id=com.amitech.allevents
@@ -28,6 +36,10 @@ references:
   issued:
   - year: '2016'
     month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: facebookadaudience
   title: How to target audiences with Facebook adverts | Facebook for Business
   URL: https://www.facebook.com/business/learn/facebook-ads-choose-audience
@@ -37,6 +49,10 @@ references:
   issued:
   - year: '2016'
     month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: facebookadproviders
   title: Advertising Providers on Facebook Platform - App Development
   URL: https://developers.facebook.com/docs/adproviders
@@ -46,6 +62,24 @@ references:
   issued:
   - year: '2016'
     month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
+- id: facebookeventimprovements
+  title: "Hate Facebook Events? Soon It's Actually Be Useful--Really Useful | WIRED"
+  URL: http://www.wired.com/2015/11/inside-facebook-events-updates/
+  type: webpage
+  author:
+  - family: McHugh
+    given: Molly
+  issued:
+  - year: '2015'
+    month: '09'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: mongodbwiki
   title: NoSQL databases explained
   URL: https://www.mongodb.com/nosql-explained
@@ -55,6 +89,10 @@ references:
   issued:
   - year: '2015'
     month: '11'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: nodejs
   title: Node.js
   URL: https://nodejs.org/en/
@@ -64,6 +102,10 @@ references:
   issued:
   - year: '2015'
     month: '11'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: npm
   title: npm
   URL: https://www.npmjs.com/
@@ -73,6 +115,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: json
   title: JSON
   URL: http://www.json.org/
@@ -82,6 +128,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: googleplaces
   title: Google Places Api
   URL: https://developers.google.com/places/
@@ -91,6 +141,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: stackshare
   title: Stacks | StackShare
   URL: http://stackshare.io/stacks
@@ -100,6 +154,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: mvchistory
   title: Trygve/MVC
   URL: http://heim.ifi.uio.no/~trygver/themes/mvc/mvc-index.html
@@ -109,6 +167,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
 - id: Fielding:2000:PDM:337180.337228
   type: paper-conference
   author:
@@ -146,6 +208,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'AngularJS: Miscellaneous: FAQ'
   title-short: AngularJS
   URL: https://docs.angularjs.org/misc/faq
@@ -156,6 +222,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'MVC vs MVVM vs MVP. What a controversial topic that many developers can spend…'
   URL: https://plus.google.com/+AngularJS/posts/aZNVhj355G2
 - id: facebookbigdata
@@ -165,6 +235,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Scaling the Facebook data warehouse to 300 PB | Engineering Blog | Facebook Code'
   URL: https://code.facebook.com/posts/229861827208629/scaling-the-facebook-data-warehouse-to-300-pb/
 - id: facebookpromote
@@ -174,6 +248,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Facebook for Business'
   URL: https://www.facebook.com/business/news/events
 - id: meetupabout
@@ -183,6 +261,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Über Meetup - Meetup'
   URL: http://www.meetup.com/de-DE/about/
 - id: meanstack
@@ -192,6 +274,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Über Meetup - Meetup'
   URL: http://advaitsolutions.in/services/web/mean-stack/
 - id: googlemvc
@@ -201,6 +287,10 @@ references:
   issued:
   - year: '2016'
     month: '2'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'MVC Architecture - Google Chrome'
   URL: https://developer.chrome.com/apps/app_frameworks
 - id: gruntvsgulp
@@ -210,6 +300,10 @@ references:
   issued:
   - year: '2015'
     month: '11'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Grunt vs Gulp: Which one should you use'
   URL: http://sixrevisions.com/web-development/grunt-vs-gulp/
 - id: yeomanperformanceoptimization
@@ -219,6 +313,10 @@ references:
   issued:
   - year: '2016'
     month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Grunt And Gulp Tasks For Performance Optimization: Yeoman'
   URL: http://yeoman.io/blog/performance-optimization.html
 - id: bootstrapgrid
@@ -231,6 +329,10 @@ references:
   issued:
   - year: '2016'
     month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'CSS - Bootstrap'
   URL: http://getbootstrap.com/css/#grid
 - id: browserbehindthescenes
@@ -243,6 +345,10 @@ references:
   issued:
   - year: '2011'
     month: '08'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'How Browsers work: Behind the scenes of modern web browsers'
   URL: http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 - id: fiftyfacebookfacts
@@ -253,6 +359,10 @@ references:
   issued:
   - year: '2011'
     month: '04'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: '50 Fascinating Facebook Facts And Figures - Jeffbullass Blog'
   URL: http://www.jeffbullas.com/2011/04/28/50-fascinating-facebook-facts-and-figures/
 - id: xingeventsreport
@@ -262,6 +372,10 @@ references:
   issued:
   - year: '2014'
     month: '08'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Social Media & Events Report'
   URL: https://de.amiando.com/infocenter/reports/smer14/download_11082014/
 - id: restapi
@@ -272,8 +386,26 @@ references:
   issued:
   - year: '2013'
     month: '10'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Exposing CQRS Through a RESTful API'
   URL: http://www.infoq.com/articles/rest-api-on-cqrs
+- id: babelpromises
+  type: webpage
+  author:
+  - family: Zhu
+    given: Henry
+  issued:
+  - year: '2016'
+    month: '02'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
+  title: 'Learn ES2015 · Babel'
+  URL: https://babeljs.io/docs/learn-es2015/#promises
 - id: googlemapscluster
   type: webpage
   author:
@@ -284,6 +416,10 @@ references:
   issued:
   - year: '2010'
     month: '12'
+  accessed: 
+  - year: '2016'
+    month: '02'
+    day: '26'
   title: 'Too Many Markers! | Google Maps APIs | Google Developers'
   URL: https://developers.google.com/maps/articles/toomanymarkers
 ...
