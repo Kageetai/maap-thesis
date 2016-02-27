@@ -36,6 +36,7 @@ Diese werden genutzt, um eine solide Basis für Projekte zu bietet, da die einze
 Da das in dieser Arbeit besprochene Projekt *Maap* als Webanwendung konzipiert ist, sollte eine moderne Grundlage genutzt werden. Aufgrund seiner Kombination aus verbreiteter und erprobter Software wurde ein MEAN-Stack gewählt. Dieser bietet Vorteile aufgrund seiner direkten Verbindung der Komponenten und JavaScript als Entwicklungssprache. Alle Komponenten sind direkt miteinander verbunden, wie in Abbildung 4.2 zu sehen ist.
 
 ![Visuelle Darstellung der Komponenten des MEAN-Stacks und ihrer Verbindung [@meanstack]](http://advaitsolutions.in/wp-content/uploads/2015/08/meanjs-1024x492.png)
+
 \newpage{}
 
 Im MEAN-Stack werden also die im Folgenden beschriebenen Technologien benutzt.
@@ -43,7 +44,7 @@ Im MEAN-Stack werden also die im Folgenden beschriebenen Technologien benutzt.
 **MongoDB**
 
 MongoDB gehört zu Art der sogenannten Dokument-basierten NoSQL-Datenbanken, welche JSON-ähnliche Dokumente anstatt klassischer Tabellen-Strukturen verwenden, um so die Integration von Daten anderer Applikationen einfacher und schneller zu gestalten [@mongodbwiki].  
-Dies erlaubt eine sehr flexible Strukturierung der Daten und übergangslose Übertragung, da die Daten im JSON-Format ausgegeben werden und so gleich mit beispielsweise Node.js verarbeitet werden können.
+Dies erlaubt eine sehr flexible Strukturierung der Daten und übergangslose Übertragung, da die Daten im JavaScript Object Notation-Format (JSON) [@json] ausgegeben werden und so gleich mit beispielsweise Node.js verarbeitet werden können.
 
 **Node.js**
 

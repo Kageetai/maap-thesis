@@ -1,6 +1,6 @@
 ## Datenmodell
 
-Nach Auswahl und erster Initialisierung der technologischen Grundlagen für das Projekt, ist die Definition der Datenmodelle wichtig, da so genaue Strukturen für die Daten der Anwendung definiert werden. Dank der NoSQL-Struktur von MongoDB [@mongodbwiki] ist eine flexible und sogar verschachtelte Datenstruktur in den Modellen möglich. Da alle Dokumente in MongoDB lediglich im JavaScript Object Notation-Format (JSON) [@json] vorliegen, ist das Einfügen und Bearbeiten bestehender Daten aus anderen Diensten oder Datenbanken, die ihre Daten oftmals ebenfalls im JSON-Format exportieren, sehr simpel.  
+Nach Auswahl und erster Initialisierung der technologischen Grundlagen für das Projekt, ist die Definition der Datenmodelle wichtig, da so genaue Strukturen für die Daten der Anwendung definiert werden. Dank der NoSQL-Struktur von MongoDB [@mongodbwiki] ist eine flexible und sogar verschachtelte Datenstruktur in den Modellen möglich. Da alle Dokumente in MongoDB lediglich im JSON vorliegen, ist das Einfügen und Bearbeiten bestehender Daten aus anderen Diensten oder Datenbanken, die ihre Daten oftmals ebenfalls im JSON-Format exportieren, sehr simpel.  
 Dank dieser freien Gestaltung können die Modelle detailliert definiert werden. Alle Einträge werden dank MongoDB automatisch indiziert und sind so direkt suchbar.
 
 In diesen Kapitel werden die im Prototypen verwendeten Datenmodelle für die Datenbank der Anwendung beschrieben. Diese zeigen die Struktur und Verbindung der einzelnen Daten.
